@@ -23,7 +23,7 @@
 
 .cabecalho__navegacao--lista {
     display: flex;
-    gap: 8px;
+    gap: 16px;
     flex-wrap: wrap;
 }
 
@@ -33,6 +33,11 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.banner__img-wrapper {
+    max-width: 100%;
+    margin: 0;
 }
 
 .banner__img {
